@@ -1,0 +1,25 @@
+#Import of packages
+import os,sys
+from pprint import pprint as pp
+
+#Defining a simple function
+def simpleSum(a,b,c):
+    print("Sum of three numbers")
+    ret=a+b+c
+    return ret
+
+#Defining the main part of the script
+def main():
+    #Variabiles definition
+    a=100
+    b=200
+    c=30.5
+    print("Calculating the produt")
+    p=a*b*c
+    #Calling the function
+    print('Calculating sum using the function')
+    s=simpleSum(a,b,c)
+    print('The product is ',p,'the sum ', s)
+    # Creating a dictionary
+    d={'sum':s,'product':p}
+    pp(d)
