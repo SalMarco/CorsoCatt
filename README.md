@@ -1,6 +1,6 @@
 # First Python course
 
-##Prerequisites
+## Prerequisites
 
-###Install git
+### Install git
 https://gitforwindows.org/
